@@ -1,0 +1,26 @@
+Yuvaintern Week 2 - Preprocessing Summary
+Input file: logistics_shipments_dataset.csv
+Original shape: 2000 rows x 11 columns
+Exact duplicate rows removed: 0
+Rows after duplicate removal: 2000
+Delivery dates before shipment flagged and set to missing: 16
+
+Missing values before processing:
+  Delivery_Date: 32
+  Cost: 41
+
+IQR outliers flagged (not automatically deleted):
+  Weight_kg: 111
+  Cost: 4
+  Distance_miles: 0
+  Transit_Days: 35
+
+Missing values after processing:
+  Delivery_Date: 48
+
+Outputs created:
+  cleaned_logistics_shipments.csv
+  normalized_logistics_shipments.csv
+  preprocessing_summary.txt
+
+Notes: Delivery_Date remains missing when unknown/invalid; it is not fabricated. Outliers are flagged for review rather than removed, because extreme shipments may be real.
