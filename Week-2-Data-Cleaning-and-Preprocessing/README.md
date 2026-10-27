@@ -86,4 +86,4 @@ Reliable logistics analysis depends on trustworthy data. Missing costs can reduc
 - The current workflow prepares the dataset; additional analysis could explore delivery performance, carrier comparisons, shipping cost patterns, and transit duration.
 
 ---
-**Note:** This repository documents a student preprocessing task. Results depend on the supplied dataset and the stated cleaning rules.
+
